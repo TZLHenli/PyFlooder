@@ -13,10 +13,10 @@ import threading
 import time
 
 # Parse inputs
-host = ""
-ip = ""
-port = 0
-num_requests = 0
+host = "REV"
+ip = "173.242.157.60"
+port = 443
+num_requests = 10000
 
 if len(sys.argv) == 2:
     port = 80
